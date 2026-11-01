@@ -17,8 +17,6 @@ logo_path = ROOT / "cardiolens_logo.png"
 if logo_path.exists():
     st.image(str(logo_path), use_container_width=True)
 
-st.title("❤️ CardioLens")
-st.subheader("Explainable Heart Disease Risk Prediction System")
 
 st.caption("Machine-learning research prototype using ensemble learning and SHAP explanations")
 st.warning("For academic demonstration only. This tool is not a medical diagnosis and must not be used to make treatment decisions.")
